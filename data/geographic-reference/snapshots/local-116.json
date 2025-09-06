@@ -1,0 +1,103 @@
+{
+  "dataset": "regions",
+  "timestamp": "2025-08-30T13:55:43.162211",
+  "row_count": 22,
+  "column_count": 3,
+  "memory_usage_mb": 0.0,
+  "columns": [
+    {
+      "name": "region_name",
+      "type": "string",
+      "nullable": true,
+      "null_count": 22,
+      "cardinality": 5,
+      "sample_values": [
+        "Americas",
+        "Oceania",
+        "Africa",
+        "Asia",
+        "Europe"
+      ]
+    },
+    {
+      "name": "sub_region_name",
+      "type": "string",
+      "nullable": true,
+      "null_count": 22,
+      "cardinality": 17,
+      "sample_values": [
+        "Latin America and the Caribbean",
+        "Melanesia",
+        "Sub-Saharan Africa",
+        "Southern Asia",
+        "Central Asia"
+      ]
+    },
+    {
+      "name": "intermediate_region_name",
+      "type": "string",
+      "nullable": true,
+      "null_count": 22,
+      "cardinality": 7,
+      "sample_values": [
+        "Caribbean",
+        null,
+        "Middle Africa",
+        "Western Africa",
+        "Eastern Africa"
+      ]
+    }
+  ],
+  "sample_rows": [
+    {
+      "region_name": "Americas",
+      "sub_region_name": "Latin America and the Caribbean",
+      "intermediate_region_name": "Caribbean"
+    },
+    {
+      "region_name": "Oceania",
+      "sub_region_name": "Melanesia",
+      "intermediate_region_name": null
+    },
+    {
+      "region_name": "Africa",
+      "sub_region_name": "Sub-Saharan Africa",
+      "intermediate_region_name": "Middle Africa"
+    },
+    {
+      "region_name": "Africa",
+      "sub_region_name": "Sub-Saharan Africa",
+      "intermediate_region_name": "Western Africa"
+    },
+    {
+      "region_name": "Asia",
+      "sub_region_name": "Southern Asia",
+      "intermediate_region_name": null
+    },
+    {
+      "region_name": "Asia",
+      "sub_region_name": "Central Asia",
+      "intermediate_region_name": null
+    },
+    {
+      "region_name": "Africa",
+      "sub_region_name": "Sub-Saharan Africa",
+      "intermediate_region_name": "Eastern Africa"
+    },
+    {
+      "region_name": "Asia",
+      "sub_region_name": "Western Asia",
+      "intermediate_region_name": null
+    },
+    {
+      "region_name": "Europe",
+      "sub_region_name": "Western Europe",
+      "intermediate_region_name": null
+    },
+    {
+      "region_name": "Americas",
+      "sub_region_name": "Northern America",
+      "intermediate_region_name": null
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "server": "openresty",
+    "date": "Sat, 30 Aug 2025 04:55:38 GMT",
+    "content-type": "text/csv; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "cache-control": "public, max-age=60",
+    "content-disposition": "attachment; filename=\"georef-united-states-of-america-state.csv\"",
+    "x-ratelimit-remaining": "9958649",
+    "x-ratelimit-limit": "10000000",
+    "x-ratelimit-reset": "2025-08-31 00:00:00+00:00",
+    "content-security-policy": "upgrade-insecure-requests; frame-ancestors 'none'",
+    "content-language": "en-us",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "POST, GET, OPTIONS",
+    "access-control-max-age": "1000",
+    "access-control-allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+    "access-control-expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+    "x-datadog-trace-id": "411867610796206070",
+    "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
+    "strict-transport-security": "max-age=31536000;includeSubdomains",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-ua-compatible": "IE=edge",
+    "content-encoding": "gzip"
+  },
+  "url": "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/georef-united-states-of-america-state/exports/csv",
+  "method": "GET",
+  "cached_at": "2025-08-30T13:55:41.398637"
+}

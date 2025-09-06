@@ -1,0 +1,483 @@
+{
+  "dataset": "cities",
+  "timestamp": "2025-08-30T14:07:50.728691",
+  "row_count": 147043,
+  "column_count": 20,
+  "memory_usage_mb": 36.27,
+  "columns": [
+    {
+      "name": "geoname_id",
+      "type": "int64",
+      "nullable": true,
+      "null_count": 147043,
+      "min": 2960,
+      "max": 12747020,
+      "mean": 3339888.5296,
+      "stddev": 2416349.0244
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 129687,
+      "sample_values": [
+        "Puerto Bello",
+        "New Iloilo",
+        "Maydolong",
+        "Manup",
+        "Limao"
+      ]
+    },
+    {
+      "name": "ascii_name",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 128925,
+      "sample_values": [
+        "Puerto Bello",
+        "New Iloilo",
+        "Maydolong",
+        "Manup",
+        "Limao"
+      ]
+    },
+    {
+      "name": "alternate_names",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 116927,
+      "sample_values": [
+        "Hacienda Porto Bello,Puerto Bello",
+        "New Iloilo",
+        "Maydolong",
+        "Manup",
+        "Limao"
+      ]
+    },
+    {
+      "name": "coordinates",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 146994,
+      "sample_values": [
+        "10.9733, 124.5351",
+        "6.54776, 124.78951",
+        "11.50021, 125.49811",
+        "11.5315, 122.498",
+        "7.07917, 125.67361"
+      ]
+    },
+    {
+      "name": "latitude",
+      "type": "double",
+      "nullable": true,
+      "null_count": 147043,
+      "min": -77.84632,
+      "max": 78.22334,
+      "mean": 31.887,
+      "stddev": 22.2677
+    },
+    {
+      "name": "longitude",
+      "type": "double",
+      "nullable": true,
+      "null_count": 147043,
+      "min": -179.12198,
+      "max": 179.36451,
+      "mean": 6.2505,
+      "stddev": 67.5656
+    },
+    {
+      "name": "feature_class",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 1,
+      "sample_values": [
+        "P"
+      ]
+    },
+    {
+      "name": "feature_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 18,
+      "sample_values": [
+        "PPL",
+        "PPLA3",
+        "PPLA2",
+        "PPLA",
+        "PPLX"
+      ]
+    },
+    {
+      "name": "country_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 246,
+      "sample_values": [
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PS"
+      ]
+    },
+    {
+      "name": "country_name_en",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 230,
+      "sample_values": [
+        "Philippines",
+        "Pakistan",
+        "Poland",
+        "Puerto Rico",
+        "West Bank and Gaza Strip"
+      ]
+    },
+    {
+      "name": "admin1_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 655,
+      "sample_values": [
+        "08",
+        "12",
+        "06",
+        "11",
+        "07"
+      ]
+    },
+    {
+      "name": "admin2_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 15396,
+      "sample_values": [
+        "37",
+        "70",
+        "23",
+        "04",
+        "I7"
+      ]
+    },
+    {
+      "name": "admin3_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 39028,
+      "sample_values": [
+        "083736000",
+        "126315000",
+        "082615000",
+        "060401000",
+        "112317000"
+      ]
+    },
+    {
+      "name": "admin4_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 17708,
+      "sample_values": [
+        "nan",
+        "61024",
+        "10798000",
+        "16077032",
+        "03251044"
+      ]
+    },
+    {
+      "name": "population",
+      "type": "int64",
+      "nullable": true,
+      "null_count": 147043,
+      "min": 0,
+      "max": 22315474,
+      "mean": 25688.0459,
+      "stddev": 233066.5728
+    },
+    {
+      "name": "elevation",
+      "type": "double",
+      "nullable": true,
+      "null_count": 147043,
+      "min": -60.0,
+      "max": 3890.0,
+      "mean": NaN,
+      "stddev": NaN
+    },
+    {
+      "name": "digital_elevation_model",
+      "type": "int64",
+      "nullable": true,
+      "null_count": 147043,
+      "min": -9999,
+      "max": 5622,
+      "mean": 376.2961,
+      "stddev": 711.977
+    },
+    {
+      "name": "timezone",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 392,
+      "sample_values": [
+        "Asia/Manila",
+        "Asia/Karachi",
+        "Europe/Warsaw",
+        "America/Puerto_Rico",
+        "Asia/Hebron"
+      ]
+    },
+    {
+      "name": "modification_date",
+      "type": "string",
+      "nullable": true,
+      "null_count": 147043,
+      "cardinality": 3962,
+      "sample_values": [
+        "2017-12-13",
+        "2019-07-11",
+        "2017-09-14",
+        "2010-09-06",
+        "2014-09-14"
+      ]
+    }
+  ],
+  "sample_rows": [
+    {
+      "geoname_id": 1692691,
+      "name": "Puerto Bello",
+      "ascii_name": "Puerto Bello",
+      "alternate_names": "Hacienda Porto Bello,Puerto Bello",
+      "coordinates": "10.9733, 124.5351",
+      "latitude": 10.9733,
+      "longitude": 124.5351,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "08",
+      "admin2_code": "37",
+      "admin3_code": "083736000",
+      "admin4_code": "nan",
+      "population": 2887,
+      "elevation": NaN,
+      "digital_elevation_model": 17,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1697769,
+      "name": "New Iloilo",
+      "ascii_name": "New Iloilo",
+      "alternate_names": "New Iloilo",
+      "coordinates": "6.54776, 124.78951",
+      "latitude": 6.54776,
+      "longitude": 124.78951,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "12",
+      "admin2_code": "70",
+      "admin3_code": "126315000",
+      "admin4_code": "nan",
+      "population": 3707,
+      "elevation": NaN,
+      "digital_elevation_model": 31,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1700013,
+      "name": "Maydolong",
+      "ascii_name": "Maydolong",
+      "alternate_names": "Maydolong",
+      "coordinates": "11.50021, 125.49811",
+      "latitude": 11.50021,
+      "longitude": 125.49811,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "08",
+      "admin2_code": "23",
+      "admin3_code": "082615000",
+      "admin4_code": "nan",
+      "population": 5492,
+      "elevation": NaN,
+      "digital_elevation_model": 6,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1701383,
+      "name": "Manup",
+      "ascii_name": "Manup",
+      "alternate_names": "Manup",
+      "coordinates": "11.5315, 122.498",
+      "latitude": 11.5315,
+      "longitude": 122.498,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "06",
+      "admin2_code": "04",
+      "admin3_code": "060401000",
+      "admin4_code": "nan",
+      "population": 2433,
+      "elevation": NaN,
+      "digital_elevation_model": 23,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1706377,
+      "name": "Limao",
+      "ascii_name": "Limao",
+      "alternate_names": "Limao",
+      "coordinates": "7.07917, 125.67361",
+      "latitude": 7.07917,
+      "longitude": 125.67361,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "11",
+      "admin2_code": "I7",
+      "admin3_code": "112317000",
+      "admin4_code": "nan",
+      "population": 2123,
+      "elevation": NaN,
+      "digital_elevation_model": 27,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1712387,
+      "name": "Guindapunan",
+      "ascii_name": "Guindapunan",
+      "alternate_names": "Guindapunan",
+      "coordinates": "11.30278, 124.70583",
+      "latitude": 11.30278,
+      "longitude": 124.70583,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "08",
+      "admin2_code": "37",
+      "admin3_code": "083715000",
+      "admin4_code": "nan",
+      "population": 2279,
+      "elevation": NaN,
+      "digital_elevation_model": 6,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1726670,
+      "name": "Barili",
+      "ascii_name": "Barili",
+      "alternate_names": "Barili",
+      "coordinates": "10.115, 123.5103",
+      "latitude": 10.115,
+      "longitude": 123.5103,
+      "feature_class": "P",
+      "feature_code": "PPLA3",
+      "country_code": "PH",
+      "country_name_en": "Philippines",
+      "admin1_code": "07",
+      "admin2_code": "21",
+      "admin3_code": "072210000",
+      "admin4_code": "nan",
+      "population": 7588,
+      "elevation": NaN,
+      "digital_elevation_model": 12,
+      "timezone": "Asia/Manila",
+      "modification_date": "2017-12-13"
+    },
+    {
+      "geoname_id": 1180281,
+      "name": "Dera Ismail Khan",
+      "ascii_name": "Dera Ismail Khan",
+      "alternate_names": "DSK,Dera Ismail Khan",
+      "coordinates": "31.83129, 70.9017",
+      "latitude": 31.83129,
+      "longitude": 70.9017,
+      "feature_class": "P",
+      "feature_code": "PPLA2",
+      "country_code": "PK",
+      "country_name_en": "Pakistan",
+      "admin1_code": "03",
+      "admin2_code": "1180282",
+      "admin3_code": "nan",
+      "admin4_code": "nan",
+      "population": 101616,
+      "elevation": NaN,
+      "digital_elevation_model": 177,
+      "timezone": "Asia/Karachi",
+      "modification_date": "2019-07-11"
+    },
+    {
+      "geoname_id": 770751,
+      "name": "Izbica",
+      "ascii_name": "Izbica",
+      "alternate_names": "Izbica,Izbica (Osada),\u05d0\u05d9\u05d6\u05d1\u05d9\u05e6\u05d4,\u05d0\u05d9\u05d6\u05e9\u05d1\u05d9\u05e6\u05e2",
+      "coordinates": "50.88728, 23.15248",
+      "latitude": 50.88728,
+      "longitude": 23.15248,
+      "feature_class": "P",
+      "feature_code": "PPLA3",
+      "country_code": "PL",
+      "country_name_en": "Poland",
+      "admin1_code": "75",
+      "admin2_code": "0606",
+      "admin3_code": "060604",
+      "admin4_code": "nan",
+      "population": 1933,
+      "elevation": NaN,
+      "digital_elevation_model": 186,
+      "timezone": "Europe/Warsaw",
+      "modification_date": "2017-09-14"
+    },
+    {
+      "geoname_id": 3089340,
+      "name": "Paw\u0142owice",
+      "ascii_name": "Pawlowice",
+      "alternate_names": "nan",
+      "coordinates": "49.96127, 18.71778",
+      "latitude": 49.96127,
+      "longitude": 18.71778,
+      "feature_class": "P",
+      "feature_code": "PPL",
+      "country_code": "PL",
+      "country_name_en": "Poland",
+      "admin1_code": "83",
+      "admin2_code": "2410",
+      "admin3_code": "241004",
+      "admin4_code": "nan",
+      "population": 9929,
+      "elevation": NaN,
+      "digital_elevation_model": 264,
+      "timezone": "Europe/Warsaw",
+      "modification_date": "2010-09-06"
+    }
+  ]
+}

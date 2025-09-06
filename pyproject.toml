@@ -1,0 +1,19 @@
+[project]
+name = "geographic-reference"
+version = "0.1.0"
+description = "Unified geographic reference data connector"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx",
+    "pyarrow",
+    "tenacity",
+    "ratelimit",
+    "boto3",
+    "pandas",
+    "duckdb",
+    "requests",
+    "pyiceberg"
+]
+
+[tool.uv]
+dev-dependencies = []

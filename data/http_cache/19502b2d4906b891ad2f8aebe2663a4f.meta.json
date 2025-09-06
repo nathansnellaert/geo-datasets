@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "connection": "keep-alive",
+    "content-length": "65617",
+    "cache-control": "max-age=300",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "content-type": "text/plain; charset=utf-8",
+    "etag": "W/\"06ddda463e9fc37f5bc7a2a560924f05789715da954fe23dc7ba9de89d286d68\"",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "deny",
+    "x-xss-protection": "1; mode=block",
+    "x-github-request-id": "EC55:1CDEAE:5954F:181DCD:68B2844D",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "date": "Sat, 30 Aug 2025 04:55:42 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-icn1450045-ICN",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1756529742.068814,VS0,VE291",
+    "vary": "Authorization,Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-fastly-request-id": "f1aee1a9b8fc6c393d39294bccbc67fb26b0ab8c",
+    "expires": "Sat, 30 Aug 2025 05:00:42 GMT",
+    "source-age": "0"
+  },
+  "url": "https://raw.githubusercontent.com/dieghernan/Country-Codes-and-International-Organizations/master/outputs/CountrycodesOrgs.csv",
+  "method": "GET",
+  "cached_at": "2025-08-30T13:55:42.331917"
+}
